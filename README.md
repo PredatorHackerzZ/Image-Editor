@@ -7,22 +7,22 @@
   </a>
 </p>
 <p align="center">
-  <a href="https://github.com/P-Phreak/Image-Editor/stargazers">
-    <img src="https://img.shields.io/github/stars/P-Phreak/Image-Editor?style=social">
+  <a href="https://github.com/PredatorHackerzZ/Image-Editor/stargazers">
+    <img src="https://img.shields.io/github/stars/PredatorHackerzZ/Image-Editor?style=social">
 
   </a>
   
-  <a href="https://github.com/P-Phreak/Image-Editor/fork">
-    <img src="https://img.shields.io/github/forks/P-Phreak/Image-Editor?label=Fork&style=social">
+  <a href="https://github.com/PredatorHackerzZ/Image-Editor/fork">
+    <img src="https://img.shields.io/github/forks/PredatorHackerzZ/Image-Editor?label=Fork&style=social">
 
   </a>  
 </p>
 
 [![TeleRoid](https://img.shields.io/badge/TeleRoid-Channel-orange?style=for-the-badge&logo=telegram)](https://telegram.dog/TeleRoidGroup)  
 ㅤㅤㅤㅤㅤㅤㅤ  
-[![TeleRoid](https://img.shields.io/badge/TeleRoid-Support-red?style=flat&logo=telegram)](https://telegram.dog/TeleRoid14)  [![TeleRoid](https://img.shields.io/badge/P-Phreak-Website-red?style=flat&logo=CodersRank)](https://t.me/TheTeleRoid)  
+[![TeleRoid](https://img.shields.io/badge/TeleRoid-Support-red?style=for-the-badge&logo=telegram)](https://telegram.dog/TeleRoid14)
 ㅤㅤㅤㅤㅤㅤㅤ  
-[![MIT license](https://img.shields.io/badge/License-MIT-blue?style=flat)](https://github.com/P-Phreak/Image-Editor/blob/main/COPYING)  [![Open Source](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/P-Phreak/Image-Editor)
+[![MIT license](https://img.shields.io/badge/License-MIT-blue?style=flat)](https://github.com/PredatorHackerzZ/Image-Editor/blob/main/COPYING)  [![Open Source](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/PredatorHackerzZ/Image-Editor)
 
 
 
@@ -34,11 +34,11 @@
 ## Installation
 
 ### Deploy to Heroku
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/P-Phreak/Image-Editor)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/PredatorHackerzZ/Image-Editor)
 
 ### Deploy in your vps
 ```sh
-git clone https://github.com/P-Phreak/Image-Editor
+git clone https://github.com/PredatorHackerzZ/Image-Editor
 cd Image-Editor
 pip3 install -r requirements.txt
 # <Create config.py appropriately>
