@@ -29,6 +29,19 @@
             "value": "",
             "required": false
         },
+        "SESSION_NAME": {
+            "description": "Your API Hash from my.telegram.org",
+            "value": ""
+        },
+        "MONGODB_URI": {
+            "description": "Put Your Mango Based UrI MongoDatabase",
+            "value": ""
+        },
+        "UPDATES_CHANNEL": {
+            "description": "Put Your Channel for ForceSub",
+            "value": "",
+            "required": false
+        },
         "WEBHOOK": {
             "description": "Set this Value to 'ANYTHING'. Don't Change it",
             "value": "ANYTHING"
