@@ -13,13 +13,21 @@ async def start(client: Client, message: Message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("⭕ Channel ⭕", url="https://t.me/TeleRoidGroup"),
-                        InlineKeyboardButton("🛑 Support 🛑", url="https://t.me/TeleRoid14"),
+                        InlineKeyboardButton("🌀 Channel ", url="https://t.me/TeleRoidGroup"),
+                        InlineKeyboardButton("🔆 Support ", url="https://t.me/TeleRoid14"),
+                    ],
+                    [
+                        InlineKeyboardButton("🚸 Help ", callback_data="help_data"),
+                        InlineKeyboardButton("🔔 About ", callback_data="about_data"),
+                    ],
+                    [
+                        InlineKeyboardButton("💠 BotList ", url="https://t.me/joinchat/t1ko_FOJxhFiOThl"),
+                        InlineKeyboardButton("👥 GitHub ", url="https://github.com/PredatorHackerzZ/Image-Editor"),
                     ],
                     [
                         InlineKeyboardButton(
-                            "SOURCE CODE",
-                            url="https://telegram.dog/Moviesflixers_DL",
+                            "🔐 Close",
+                            callback_data="close_e",
                         )
                     ],
                 ]
@@ -39,12 +47,12 @@ async def help(client, message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("BACK", callback_data="start_data"),
-                        InlineKeyboardButton("ABOUT", callback_data="about_data"),
+                        InlineKeyboardButton("🔙 BACK", callback_data="start_data"),
+                        InlineKeyboardButton("🔔 ABOUT", callback_data="about_data"),
                     ],
                     [
                         InlineKeyboardButton(
-                            "SOURCE CODE",
+                            "🈴 SOURCE CODE",
                             url="https://telegram.dog/Moviesflixers_DL",
                         )
                     ],
@@ -65,8 +73,8 @@ async def about(client, message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("BACK", callback_data="help_data"),
-                        InlineKeyboardButton("START", callback_data="start_data"),
+                        InlineKeyboardButton("🔙 BACK", callback_data="help_data"),
+                        InlineKeyboardButton("🏠 Home", callback_data="start_data"),
                     ],
                     [
                         InlineKeyboardButton(
