@@ -9,7 +9,7 @@
         "TeleRoid"
     ],
     "website": "https://telegram.dog/TheTeleRoid",
-    "repository": "https://github.com/P-Phreak/Image-Editor",
+    "repository": "https://github.com/PredatorHackerzZ/Image-Editor",
     "success_url": "https://telegram.dog/TeleRoid14",
     "env": {
         "TG_BOT_TOKEN": {
