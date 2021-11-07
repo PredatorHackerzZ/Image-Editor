@@ -8,8 +8,8 @@ from database.add_user import AddUserToDatabase
 
 @Client.on_message(filters.command(["start"]) & filters.private)
 async def start(client: Client, message: Message):
-    await AddUserToDatabase(bot, update)
-    forcesub = await ForceSub(bot, update)
+    await AddUserToDatabase(client, message)
+    forcesub = await ForceSub(client, message)
     if forcesub == 400:
         return
     try:
@@ -46,8 +46,8 @@ async def start(client: Client, message: Message):
 
 @Client.on_message(filters.command(["help"]) & filters.private)
 async def help(client, message):
-    await AddUserToDatabase(bot, update)
-    forcesub = await ForceSub(bot, update)
+    await AddUserToDatabase(client, message)
+    forcesub = await ForceSub(client, message)
     if forcesub == 400:
         return
     try:
@@ -76,8 +76,8 @@ async def help(client, message):
 
 @Client.on_message(filters.command(["about"]) & filters.private)
 async def about(client, message):
-    await AddUserToDatabase(bot, update)
-    forcesub = await ForceSub(bot, update)
+    await AddUserToDatabase(client, message)
+    forcesub = await ForceSub(client, message)
     if forcesub == 400:
         return
     try:
