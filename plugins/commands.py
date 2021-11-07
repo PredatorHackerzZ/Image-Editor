@@ -2,7 +2,9 @@
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, Message
 from pyrogram import Client, filters
 from script import script  # pylint:disable=import-error
-
+from database.forcesub import ForceSub
+from database.access_db import db
+from database.add_user import AddUserToDatabase
 
 @Client.on_message(filters.command(["start"]) & filters.private)
 async def start(client: Client, message: Message):
