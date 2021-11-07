@@ -6,6 +6,10 @@ from script import script  # pylint:disable=import-error
 
 @Client.on_message(filters.command(["start"]) & filters.private)
 async def start(client: Client, message: Message):
+    await AddUserToDatabase(bot, update)
+    forcesub = await ForceSub(bot, update)
+    if forcesub == 400:
+        return
     try:
         await message.reply_text(
             text=script.START_MSG.format(message.from_user.mention),
@@ -40,6 +44,10 @@ async def start(client: Client, message: Message):
 
 @Client.on_message(filters.command(["help"]) & filters.private)
 async def help(client, message):
+    await AddUserToDatabase(bot, update)
+    forcesub = await ForceSub(bot, update)
+    if forcesub == 400:
+        return
     try:
         await message.reply_text(
             text=script.HELP_MSG,
@@ -66,6 +74,10 @@ async def help(client, message):
 
 @Client.on_message(filters.command(["about"]) & filters.private)
 async def about(client, message):
+    await AddUserToDatabase(bot, update)
+    forcesub = await ForceSub(bot, update)
+    if forcesub == 400:
+        return
     try:
         await message.reply_text(
             text=script.ABOUT_MSG,
