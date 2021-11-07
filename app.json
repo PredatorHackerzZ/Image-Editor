@@ -42,6 +42,14 @@
             "value": "",
             "required": false
         },
+        "LOG_CHANNEL": {
+            "description": "Channel ID for Dump and Trash Messages",
+            "value": ""
+        },
+        "OWNER_ID": {
+            "description": "Put Your ID",
+            "value": ""
+        },
         "WEBHOOK": {
             "description": "Set this Value to 'ANYTHING'. Don't Change it",
             "value": "ANYTHING"
